@@ -4,5 +4,6 @@ class SayController < ApplicationController
   end
 
   def Goodbye
+	@timeInAnHour = 1.hour.from_now
   end
 end

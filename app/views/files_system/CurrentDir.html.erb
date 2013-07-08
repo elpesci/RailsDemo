@@ -1,0 +1,10 @@
+<h1>FilesSystem#CurrentDir</h1>
+<h3>Files in <%= @currentDirName %>:</h3>
+<%= Dir.getwd %>
+<ul>
+<% for file in @files %>
+	<li>file name is: <%= file %></li>
+<% end %>
+</ul>
+
+Return to <%= link_to "Hello", say_Hello_path %> page

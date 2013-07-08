@@ -1,4 +1,6 @@
 RailsDemo::Application.routes.draw do
+  get "files_system/CurrentDir"
+
   get "say/Hello"
 
   get "say/Goodbye"
